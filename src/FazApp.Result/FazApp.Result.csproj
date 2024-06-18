@@ -4,14 +4,19 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Version>0.1.1</Version>
+        <Version>0.1.2</Version>
         <Title>FazApp.Result</Title>
         <Authors>FazApp</Authors>
         <Description>Yet another Result pattern implementation</Description>
         <PackageTags>result</PackageTags>
-        <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/JoachimChrapek/Result</RepositoryUrl>
         <RepositoryType>GIT</RepositoryType>
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\docs\readme.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 
 </Project>
