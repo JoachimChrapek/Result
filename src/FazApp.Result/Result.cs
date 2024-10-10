@@ -67,4 +67,9 @@ public class Result : BaseResult
 
         return await onValue();
     }
+    
+    public static Result<TValue> From<TValue>(TValue value)
+    {
+        return value;
+    }
 }
