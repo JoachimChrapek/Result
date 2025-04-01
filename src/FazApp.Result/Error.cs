@@ -12,4 +12,9 @@ public class Error
         Code = code;
         Description = description;
     }
+
+    public override string ToString()
+    {
+        return $"{Type}: {Code} - {Description}";
+    }
 }
