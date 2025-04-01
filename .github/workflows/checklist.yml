@@ -1,3 +1,0 @@
-- name: Task Completed Checker
-
-  uses: kentaro-m/task-completed-checker-action@v0.1.2
